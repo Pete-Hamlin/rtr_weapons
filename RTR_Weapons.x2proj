@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>585ea20e-8b1e-4419-85b0-139630167c37</Guid>
+    <Name>RTR_Weapons</Name>
+    <Description>Description of My XCOM 2 Mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>RTR_Weapons</AssemblyName>
+    <RootNamespace>RTR_Weapons</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\RTR_Weapons\" />
+    <Folder Include="Src\RTR_Weapons\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComCovertOpsGear.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyLootMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRTRWeapons.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRTRWeapons_Stats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\BRMeshPack.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Conv_Schematics.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WP_PistolsEnhanced.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\XComPistols_Enhanced_ModShaderCache.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\RTR_Weapons\Classes\TechHook.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RTR_Weapons\Classes\WeaponHook.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RTR_Weapons\Classes\X2Ability_RTRWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RTR_Weapons\Classes\X2DownloadableContentInfo_RTR_Weapons.uc" />
+    <Content Include="Src\RTR_Weapons\Classes\X2Item_RTRWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RTR_Weapons\Classes\X2Item_RTRWeapons_Schematic.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RTR_Weapons\Classes\X2Item_RTRWeaponUpgrades.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RTR_Weapons\Classes\X2StrategyElement_RTRWeaponTechs.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
